@@ -142,8 +142,8 @@ public class UserDAO implements IUserDAO{
 
             while (rs.next()) {
                 String name = rs.getString("name");
-                String email = rs.getString("email");
-                String country = rs.getString("country");
+                String email = rs.getString("price");
+                String country = rs.getString("img");
                 user = new User(id, name, email, country);
             }
         } catch (SQLException e) {

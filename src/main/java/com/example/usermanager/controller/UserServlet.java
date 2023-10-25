@@ -65,7 +65,7 @@ public class UserServlet extends HttpServlet {
                     break;
                 case "search":
                     searchUsersByName(request, response);
-                    break; // Thêm case để xử lý tìm kiếm theo tên
+                    break;
                 default:
                     listUser(request, response);
                     break;
